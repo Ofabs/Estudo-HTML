@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(0, 242, 255);
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+li{
+    display: inline-block;
+    margin: 0px 10px;
+    
+}
+#cabeçalho li a {
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px 25px;
+    transition: 2s;
+}
+
+#cabeçalho li a:hover{
+    background-color: rgb(0, 157, 255);
+    border-radius: 10px;
+    
+    animation-duration: 1.5s;
+    
+}
+
+div#frame {
+    padding: 50px 50px;
+}
+iframe {
+    display: block;
+    margin: auto;
+}
+
+h1.esquerda{
+    text-align: left;
+    padding-left: 260px;
+} 
+.container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+}
+img.img1 {
+    height: 250px;
+    width: 500px;
+    padding-right: 50px;
+
+}
+p.p1 {
+    width: 500px;
+}
+.conta{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 100px;
+}
+
+h1.direita{
+    text-align: right;
+    padding-right: 310px;
+}
+
+img.img2 {
+    height: 250px;
+    width: 500px;
+    padding-left: 50px;
+
+    
+}
+p.p2 {
+    width: 500px;
+}
+
+h1#solo {
+    text-align: right;
+    padding-right: 240px;
+}
