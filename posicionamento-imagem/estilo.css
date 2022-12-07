@@ -15,15 +15,12 @@ header {
     padding: 20px 20px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    
+    align-items: center;   
 }
-
 
 li{
     display: inline-block;
-    margin: 0px 10px;
-    
+    margin: 0px 10px;    
 }
 #cabeçalho li a {
     font-size: 20px;
@@ -38,13 +35,9 @@ li{
     background-color: rgb(0, 157, 255);
     border-radius: 10px;
     
-    animation-duration: 1.5s;
-    
+    animation-duration: 1.5s;    
 }
 
-div#frame {
-    padding: 50px 50px;
-}
 iframe {
     display: block;
     margin: auto;
@@ -57,16 +50,17 @@ h1.esquerda{
 .container {
     display: flex;
     flex-direction: row;
-    padding-left: 100px;
+    padding: 100px 0px 100px 100px;
 }
 img.img1 {
     height: 250px;
     width: 500px;
     padding-right: 50px;
-
+    border: 1px solid black;
 }
 p.p1 {
-    width: 500px;
+    width: 430px;
+    padding: 10px;
 }
 .conta{
     display: flex;
@@ -83,11 +77,11 @@ img.img2 {
     height: 250px;
     width: 500px;
     padding-left: 50px;
-
-    
+    border: 1px solid black;   
 }
 p.p2 {
-    width: 500px;
+    width: 430px;
+    padding: 10px;
 }
 
 h1#solo {
