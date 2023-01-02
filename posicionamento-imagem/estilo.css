@@ -1,7 +1,7 @@
+@charset "UTF-8";
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 body{
@@ -28,14 +28,13 @@ li{
     text-transform: uppercase;
     color: black;
     padding: 10px 25px;
-    transition: 2s;
+    transition: 1s;
 }
 
 #cabeçalho li a:hover{
     background-color: rgb(0, 157, 255);
     border-radius: 10px;
     
-    animation-duration: 1.5s;    
 }
 
 iframe {
@@ -45,12 +44,13 @@ iframe {
 
 h1.esquerda{
     text-align: left;
-    padding-left: 260px;
+    padding-left: 350px;
 } 
 .container {
     display: flex;
     flex-direction: row;
-    padding: 100px 0px 100px 100px;
+    padding-bottom: 150px;
+    padding-left: 150px;
 }
 img.img1 {
     height: 250px;
@@ -65,12 +65,13 @@ p.p1 {
 .conta{
     display: flex;
     flex-direction: row-reverse;
+    padding-bottom: 150px;
     padding-right: 100px;
 }
 
 h1.direita{
     text-align: right;
-    padding-right: 310px;
+    padding-right: 320px;
 }
 
 img.img2 {
@@ -86,5 +87,5 @@ p.p2 {
 
 h1#solo {
     text-align: right;
-    padding-right: 240px;
+    padding-right: 270px;
 }
